@@ -1,4 +1,4 @@
-<img src=https://c0.klipartz.com/pngpicture/250/810/gratis-png-foca-de-puerto.png width="400" height="193" align="top"/>
+<img src=https://i.pinimg.com/originals/1d/44/25/1d4425d6544672ed4585b2fca68fc967.jpg width="500" height="350" align="right"/>
 
 # FU_Java
 ## Домашние работы по предмету  "Современные технологии программирования"
