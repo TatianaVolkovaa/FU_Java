@@ -4,3 +4,8 @@
 ## Домашние работы по предмету  "Современные технологии программирования"
 
 *[Домашняя работа №1](https://github.com/TatianaVolkovaa/FU_Java/tree/master/дз%2018.02.21)
+*[Практика по javafx](https://github.com/TatianaVolkovaa/FU_Java/tree/master/javafx_pi19-4)
+*[Практика по rest №1](https://github.com/TatianaVolkovaa/FU_Java/tree/master/pi19_4)
+*[Практика по rest №2](https://github.com/TatianaVolkovaa/FU_Java/tree/master/rest_pi19_4)
+*[Самостоятельная по rest](https://github.com/TatianaVolkovaa/FU_Java/tree/master/volkova_pi19_4)
+*[Blog](https://github.com/TatianaVolkovaa/FU_Java/tree/master/blog)
