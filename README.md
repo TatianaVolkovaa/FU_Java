@@ -10,3 +10,4 @@
 * [Самостоятельная по rest](https://github.com/TatianaVolkovaa/FU_Java/tree/master/volkova_pi19_4)
 * [Blog](https://github.com/TatianaVolkovaa/FU_Java/tree/master/blog)
 * [Контрольная по rest](https://github.com/TatianaVolkovaa/FU_Java/tree/master/Tatiana_Volkova_PI19_4)
+* [Junit](https://github.com/TatianaVolkovaa/FU_Java/tree/master/junit_task)
