@@ -11,3 +11,4 @@
 * [Blog](https://github.com/TatianaVolkovaa/FU_Java/tree/master/blog)
 * [Контрольная по rest](https://github.com/TatianaVolkovaa/FU_Java/tree/master/Tatiana_Volkova_PI19_4)
 * [Junit](https://github.com/TatianaVolkovaa/FU_Java/tree/master/junit_task)
+* [Курсовая работа](https://github.com/TatianaVolkovaa/FU_Java/tree/master/course%20work)
