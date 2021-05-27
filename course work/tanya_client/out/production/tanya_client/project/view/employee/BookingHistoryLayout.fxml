@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="project.controller.employee.BookingHistoryController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TableView fx:id="bookingTable" layoutX="1.0" prefHeight="598.0" prefWidth="582.0"
+                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="clientColumn" text="Клиент"/>
+                <TableColumn fx:id="dateColumn" text="Дата бронирования"/>
+                <TableColumn fx:id="statusColumn" text="Состояние"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+        </TableView>
+    </children>
+</AnchorPane>

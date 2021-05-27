@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controller.main.StartController">
+    <children>
+        <Label layoutX="304.0" layoutY="192.0" text="Авторизация в системе">
+            <font>
+                <Font name="System Bold" size="24.0"/>
+            </font>
+        </Label>
+        <HBox alignment="CENTER" layoutX="322.0" layoutY="381.0" prefHeight="47.0" prefWidth="239.0" spacing="20">
+            <children>
+                <Button mnemonicParsing="false" onAction="#login" text="Войти"/>
+            </children>
+        </HBox>
+        <TextField fx:id="loginField" layoutX="367.0" layoutY="273.0"/>
+        <PasswordField fx:id="passField" layoutX="368.0" layoutY="331.0"/>
+        <Label layoutX="367.0" layoutY="256.0" text="Эл. почта"/>
+        <Label layoutX="367.0" layoutY="314.0" text="Пароль"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane prefHeight="600.0" prefWidth="900.0" fx:controller="project.controller.RootController"
+            xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER" fx:id="menuBar">
+            <Menu mnemonicParsing="false" text="Заказы">
+                <MenuItem mnemonicParsing="false" onAction="#allBooking" text="Все заказы"/>
+                <MenuItem mnemonicParsing="false" onAction="#allTours" text="Доступные туры"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Партнеры">
+                <MenuItem mnemonicParsing="false" onAction="#hotels" text="Отели"/>
+                <MenuItem mnemonicParsing="false" onAction="#flights" text="Авиаперелёты"/>
+                <MenuItem mnemonicParsing="false" onAction="#countriesAndCities" text="Страны и города"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Учет">
+                <MenuItem mnemonicParsing="false" onAction="#clients" text="Клиенты"/>
+                <MenuItem mnemonicParsing="false" onAction="#employees" text="Сотрудники"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Информация">
+                <MenuItem mnemonicParsing="false" onAction="#aboutMe" text="Об авторе"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>

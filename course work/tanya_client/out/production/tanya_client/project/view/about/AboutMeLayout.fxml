@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controller.about.AboutMeController">
+   <children>
+      <Label layoutX="419.0" layoutY="86.0" prefHeight="18.0" prefWidth="61.0" text="ABOUT ME" textAlignment="CENTER" />
+      <Label layoutX="390.0" layoutY="112.0" text="Имя: Волкова Татьяна" />
+      <Label layoutX="406.0" layoutY="130.0" text="Группа: ПИ19-4" />
+      <Label layoutX="272.0" layoutY="148.0" text="Информационно-справочная система туристического агентства" />
+   </children>
+</AnchorPane>
