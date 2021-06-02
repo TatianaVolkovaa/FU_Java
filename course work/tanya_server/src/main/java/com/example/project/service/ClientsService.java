@@ -24,6 +24,7 @@ public class ClientsService {
 
     /**
      * Получение всех записей из клиентов
+     *
      * @return список всех клиентов
      */
     public List<Client> findAllClients() {
@@ -32,6 +33,7 @@ public class ClientsService {
 
     /**
      * Получение клиента по id
+     *
      * @param client_id идентификатор клиента
      * @return найденный по id клиент
      */
@@ -41,6 +43,7 @@ public class ClientsService {
 
     /**
      * Создание клиента
+     *
      * @param client клиент
      * @return созданный клиент
      */
@@ -50,18 +53,22 @@ public class ClientsService {
 
     /**
      * Изменение клиента
+     *
      * @param client клиент
      */
-    public void updateClient(Client client) {
+    public boolean updateClient(Client client) {
         clientRepository.save(client);
+        return true;
     }
 
     /**
      * Удаление клиента по id
+     *
      * @param client_id идентификатор клиента
      */
-    public void deleteClient(Integer client_id) {
+    public boolean deleteClient(Integer client_id) {
         clientRepository.deleteById(client_id);
+        return true;
     }
 
     /**

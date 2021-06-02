@@ -43,8 +43,9 @@ public class EmployeesService {
      * Изменение сотрудника
      * @param employee сотрудник
      */
-    public void updateClient(Employee employee) {
+    public boolean updateClient(Employee employee) {
         employeeRepository.save(employee);
+        return true;
     }
 
     /**

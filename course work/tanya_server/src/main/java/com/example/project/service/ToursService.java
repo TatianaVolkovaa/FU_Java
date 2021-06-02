@@ -24,6 +24,7 @@ public class ToursService {
 
     /**
      * Получение всех записей туров
+     *
      * @return список всех туров
      */
     public List<Tour> findAlTours() {
@@ -32,6 +33,7 @@ public class ToursService {
 
     /**
      * Получение списка туров по id клиента
+     *
      * @param id идентификатор клиента
      * @return список туров по id клиента
      */
@@ -41,6 +43,7 @@ public class ToursService {
 
     /**
      * Получение тура по его id
+     *
      * @param tourId идентификатор тура
      * @return найденный по id тур
      */
@@ -50,6 +53,7 @@ public class ToursService {
 
     /**
      * Создание нового тура
+     *
      * @param tour тур
      * @return созданный тур
      */
@@ -59,18 +63,22 @@ public class ToursService {
 
     /**
      * Изменение тура
+     *
      * @param tour тур
      */
-    public void updateTour(Tour tour) {
+    public boolean updateTour(Tour tour) {
         tourRepository.save(tour);
+        return true;
     }
 
     /**
      * Удаление тура по id
+     *
      * @param tourId идентификатор тура
      */
-    public void deleteTour(Integer tourId) {
+    public boolean deleteTour(Integer tourId) {
         tourRepository.deleteById(tourId);
+        return true;
     }
 
 }

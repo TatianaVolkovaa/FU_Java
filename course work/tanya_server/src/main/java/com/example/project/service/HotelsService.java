@@ -24,6 +24,7 @@ public class HotelsService {
 
     /**
      * Получение всех записей из отелей
+     *
      * @return список всех отелей
      */
     public List<Hotel> findAllHotels() {
@@ -32,6 +33,7 @@ public class HotelsService {
 
     /**
      * Получение отелей по id
+     *
      * @param hotel_id идентификатор отеля
      * @return найденный по id отель
      */
@@ -41,6 +43,7 @@ public class HotelsService {
 
     /**
      * Создание отеля
+     *
      * @param hotel отель
      * @return созданный отель
      */
@@ -50,18 +53,21 @@ public class HotelsService {
 
     /**
      * Изменение отеля
+     *
      * @param hotel отель
      */
-    public void updateHotel(Hotel hotel) {
+    public boolean updateHotel(Hotel hotel) {
         hotelRepository.save(hotel);
+        return true;
     }
 
     /**
      * Удаление отеля по id
+     *
      * @param hotel_id идентификатор отеля
      */
-    public void deleteHotel(Integer hotel_id) {
+    public boolean deleteHotel(Integer hotel_id) {
         hotelRepository.deleteById(hotel_id);
+        return true;
     }
-
 }

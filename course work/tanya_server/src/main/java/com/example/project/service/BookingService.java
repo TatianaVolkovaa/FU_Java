@@ -24,6 +24,7 @@ public class BookingService {
 
     /**
      * Получение всех записей из заказов
+     *
      * @return список всех заказов
      */
     public List<Booking> findAllBookings() {
@@ -32,6 +33,7 @@ public class BookingService {
 
     /**
      * Получение заказов по id сотрудника, который их оформлял
+     *
      * @param id идентификатор сотрудника
      * @return список заказов по id сотрудника, который их оформлял
      */
@@ -41,6 +43,7 @@ public class BookingService {
 
     /**
      * Получение заказа по его id
+     *
      * @param booking_id идентификатор сотрудника
      * @return найденный по id заказ
      */
@@ -50,6 +53,7 @@ public class BookingService {
 
     /**
      * Создание заказа
+     *
      * @param booking заказ
      * @return созданный заказ
      */
@@ -59,18 +63,22 @@ public class BookingService {
 
     /**
      * Изменение заказа
+     *
      * @param booking заказ
      */
-    public void updateBooking(Booking booking) {
+    public boolean updateBooking(Booking booking) {
         bookingRepository.save(booking);
+        return true;
     }
 
     /**
      * Удаление заказа по id
+     *
      * @param booking_id идентификатор заказа
      */
-    public void deleteBooking(Integer booking_id) {
+    public boolean deleteBooking(Integer booking_id) {
         bookingRepository.deleteById(booking_id);
+        return true;
     }
 
     /**

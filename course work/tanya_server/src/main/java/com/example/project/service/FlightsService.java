@@ -24,6 +24,7 @@ public class FlightsService {
 
     /**
      * Получение всех записей из авиаперелётов
+     *
      * @return список всех авиаперелётов
      */
     public List<Flight> findAllFlights() {
@@ -32,6 +33,7 @@ public class FlightsService {
 
     /**
      * Получение авиаперелётов по id
+     *
      * @param flight_id
      * @return найденный по id авиаперелёт
      */
@@ -41,6 +43,7 @@ public class FlightsService {
 
     /**
      * Создание авиаперелёта
+     *
      * @param flight авиаперелёт
      * @return созданный авиаперелёт
      */
@@ -50,17 +53,22 @@ public class FlightsService {
 
     /**
      * Изменение авиаперелёта
+     *
      * @param flight авиаперелёт
      */
-    public void updateFlight(Flight flight) {
+    public boolean updateFlight(Flight flight) {
         flightRepository.save(flight);
+        return true
+                ;
     }
 
     /**
      * Удаление авиаперелёта по id
+     *
      * @param flight_id идентификатор авиаперелёта
      */
-    public void deleteFlight(Integer flight_id) {
+    public boolean deleteFlight(Integer flight_id) {
         flightRepository.deleteById(flight_id);
+        return true;
     }
 }
